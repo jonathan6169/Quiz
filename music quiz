@@ -1,0 +1,78 @@
+# trivia quiz
+
+print("This os a quiz that tests your knowlege of geography")
+name = input("Enter your name ")
+
+print("\nHi there", name+ " Are you ready to take this quiz?\n")
+print("I will ask you 10 questions and give you three choices for each question")
+print("Select the right choice by pressing A, B, or C")
+
+print("--------------------------------------------------------------------------")
+
+# set quiz score to 0
+
+score = 0
+score = int(score) # convert 0 into a number so we can add scores
+
+# question 1
+
+print("Question 1: What artist recently went double platinum without features?")
+print("A. Kodak Black")
+print("B. Kendrick Lamar")
+print("C. Lil Uzi")
+print("D. J. Cole")
+print("")
+
+Q1answer = "D" # right answer to question 1
+Q1response = input("Your Answer: ")
+
+if Q1response == "D" or Q1response == "d":
+    print("Well done " + Q1response + " is correct!")
+    score = score +1
+
+else:
+    print("Sorry, " + Q1response + " is incorrect!")
+
+print("Your current score is " + str(score) + " out of 10\n")
+
+# question 2
+
+print("Question 2: What label did Dr.Dre found on his own?")
+print("A. Aftermath Entertainment")
+print("B. Death Row")
+print("C. Ruthless Records")
+print("D. Interscope Records")
+print("")
+
+Q1answer = "A" # right answer to question 2
+Q1response = input("Your Answer: ")
+
+if Q1response == "A" or Q1response == "a":
+    print("Well done " + Q1response + " is correct!")
+    score = score +1
+
+else:
+    print("Sorry, " + Q1response + " is incorrect!")
+
+print("Your current score is " + str(score) + " out of 10\n")
+
+# question 3
+
+print("Question 3: What was the last studio album J. Cole to release?")
+print("A. Forest Hill Drive 2014")
+print("B. 4 your eyez only")
+print("C. The come up")
+print("D. Cole World: The Sideline story")
+print("")
+
+Q1answer = "B" # right answer to question 3
+Q1response = input("Your Answer: ")
+
+if Q1response == "B" or Q1response == "b":
+    print("Well done " + Q1response + " is correct!")
+    score = score +1
+
+else:
+    print("Sorry, " + Q1response + " is incorrect!")
+
+print("Your current score is " + str(score) + " out of 10\n")

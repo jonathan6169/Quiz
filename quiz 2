@@ -1,0 +1,79 @@
+name = input("Enter your first name: ")
+print("Welcome", name + ", this is a quiz that'll test your math knowledge")
+print("Remember leave all answers in lower case and use ^ for exponents")
+
+print("\nQuestion 1")
+Q1 = input ("What is the square root of 121? ")
+if Q1 == "11" :
+    print("That's correct")
+else:
+    print("Sorry, that's incorrect")
+
+print("\nQuestion 2")
+print("Leave no spaces")
+Q2 = input ("What is the the pythagorean theorem? ")
+if Q2 == "a^2+b^2=c^2" :
+    print("That is correct!")
+else:
+    print("Sorry, that is incorrect")
+    
+print("\nQuestion 3")
+print("\nUse the pythagorean theorem")
+Q3 = input ("You are given 2 sides of the triangle, a = 3, b = 4, what is the hypotenuse, c=?")
+if Q3 == "5" :
+    print("That is correct!")
+else :
+    print("Sorry, that is incorrect")
+
+print("\nQuestion 4")
+Q4 = input ("What is 4^3 ")
+if Q4 == "64" :
+    print("That is correct!")
+else :
+    print("Sorry, that is incorrect")
+
+print("\nQuestion 5")
+Q5 = input ("Solve : (4*3)^2? ")
+if Q5 == "144" :
+    print("That is correct!")
+else :
+    print("Sorry, that is incorrect")
+
+print("\nQuestion 6")
+Q6 = input ("If k=3, h=5 and k<x<h, what is the value for x ")
+if Q6 == "4" :
+    print("That is correct!")
+else :
+    print("Sorry, that is incorrect")
+
+print("\nQuestion 7")
+print("\nUse the pythagorean theorem")
+Q7 = input ("If you are given a = 12, c = 24 what is b?")
+if Q7 == "5" :
+    print("That is correct!")
+else :
+    print("Sorry, that is incorrect")
+
+print("\nQuestion 8")
+print("\nUse the pythagorean theorem and round to the nearest whole number")
+Q8 = input ("You are given 2 sides of the triangle, a = 3, b = 4, what is the hypotenuse, c=?")
+if Q8 == "5" :
+    print("That is correct!")
+else :
+    print("Sorry, that is incorrect")
+
+print("\nQuestion 9")
+print("\nUse the pythagorean theorem")
+Q9 = input ("You are given 2 sides of the triangle, a = 3, b = 4, what is the hypotenuse, c=?")
+if Q9 == "5" :
+    print("That is correct!")
+else :
+    print("Sorry, that is incorrect")
+
+print("\nQuestion 10")
+print("\nUse the pythagorean theorem")
+Q10 = input ("You are given 2 sides of the triangle, a = 3, b = 4, what is the hypotenuse, c=?")
+if Q10 == "5" :
+    print("That is correct!")
+else :
+    print("Sorry, that is incorrect")

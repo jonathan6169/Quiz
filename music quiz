@@ -44,15 +44,15 @@ print("C. Ruthless Records")
 print("D. Interscope Records")
 print("")
 
-Q1answer = "A" # right answer to question 2
-Q1response = input("Your Answer: ")
+Q2answer = "A" # right answer to question 2
+Q2response = input("Your Answer: ")
 
-if Q1response == "A" or Q1response == "a":
-    print("Well done " + Q1response + " is correct!")
+if Q2response == "A" or Q2response == "a":
+    print("Well done " + Q2response + " is correct!")
     score = score +1
 
 else:
-    print("Sorry, " + Q1response + " is incorrect!")
+    print("Sorry, " + Q2response + " is incorrect!")
 
 print("Your current score is " + str(score) + " out of 10\n")
 
@@ -65,14 +65,139 @@ print("C. The come up")
 print("D. Cole World: The Sideline story")
 print("")
 
-Q1answer = "B" # right answer to question 3
-Q1response = input("Your Answer: ")
+Q3answer = "B" # right answer to question 3
+Q3response = input("Your Answer: ")
 
-if Q1response == "B" or Q1response == "b":
-    print("Well done " + Q1response + " is correct!")
+if Q3response == "B" or Q3response == "b":
+    print("Well done " + Q3response + " is correct!")
     score = score +1
 
 else:
-    print("Sorry, " + Q1response + " is incorrect!")
+    print("Sorry, " + Q3response + " is incorrect!")
+
+print("Your current score is " + str(score) + " out of 10\n")
+
+# question 4
+
+print("Question 4: What was the last studio album J. Cole to release?")
+print("A. Forest Hill Drive 2014")
+print("B. 4 your eyez only")
+print("C. The come up")
+print("D. Cole World: The Sideline story")
+print("")
+
+Q4answer = "B" # right answer to question 3
+Q4response = input("Your Answer: ")
+
+if Q4response == "B" or Q4response == "b":
+    print("Well done " + Q4response + " is correct!")
+    score = score +1
+
+else:
+    print("Sorry, " + Q4response + " is incorrect!")
+
+print("Your current score is " + str(score) + " out of 10\n")
+
+# question 5
+
+print("Question 5: What was the last studio album J. Cole to release?")
+print("A. Forest Hill Drive 2014")
+print("B. 4 your eyez only")
+print("C. The come up")
+print("D. Cole World: The Sideline story")
+print("")
+
+Q5answer = "B" # right answer to question 3
+Q5response = input("Your Answer: ")
+
+if Q5response == "B" or Q5response == "b":
+    print("Well done " + Q5response + " is correct!")
+    score = score +1
+
+else:
+    print("Sorry, " + Q5response + " is incorrect!")
+
+print("Your current score is " + str(score) + " out of 10\n")
+
+# question 6
+
+print("Question 6: What was the last studio album J. Cole to release?")
+print("A. Forest Hill Drive 2014")
+print("B. 4 your eyez only")
+print("C. The come up")
+print("D. Cole World: The Sideline story")
+print("")
+
+Q6answer = "B" # right answer to question 6
+Q6response = input("Your Answer: ")
+
+if Q6response == "B" or Q6response == "b":
+    print("Well done " + Q6response + " is correct!")
+    score = score +1
+
+else:
+    print("Sorry, " + Q6response + " is incorrect!")
+
+print("Your current score is " + str(score) + " out of 10\n")
+# question 6
+
+print("Question 6: What was the last studio album J. Cole to release?")
+print("A. Forest Hill Drive 2014")
+print("B. 4 your eyez only")
+print("C. The come up")
+print("D. Cole World: The Sideline story")
+print("")
+
+Q6answer = "B" # right answer to question 6
+Q6response = input("Your Answer: ")
+
+if Q6response == "B" or Q6response == "b":
+    print("Well done " + Q6response + " is correct!")
+    score = score +1
+
+else:
+    print("Sorry, " + Q6response + " is incorrect!")
+
+print("Your current score is " + str(score) + " out of 10\n")
+
+# question 7
+
+print("Question 7: What was the last studio album J. Cole to release?")
+print("A. Forest Hill Drive 2014")
+print("B. 4 your eyez only")
+print("C. The come up")
+print("D. Cole World: The Sideline story")
+print("")
+
+Q7answer = "B" # right answer to question 7
+Q7response = input("Your Answer: ")
+
+if Q7response == "B" or Q7response == "b":
+    print("Well done " + Q7response + " is correct!")
+    score = score +1
+
+else:
+    print("Sorry, " + Q7response + " is incorrect!")
+
+print("Your current score is " + str(score) + " out of 10\n")
+
+# question 8
+
+print("Question 8: What was the last studio album J. Cole to release?")
+print("A. Forest Hill Drive 2014")
+print("B. 4 your eyez only")
+print("C. The come up")
+print("D. Cole World: The Sideline story")
+print("")
+
+Q8answer = "B" # right answer to question 8
+Q8response = input("Your Answer: ")
+
+if Q8response == "B" or Q8response == "b":
+    print("Well done " + Q8response + " is correct!")
+    score = score +1
+
+else:
+    print("Sorry, " + Q8response + " is incorrect!")
 
 print("Your current score is " + str(score) + " out of 10\n")

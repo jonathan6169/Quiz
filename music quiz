@@ -58,17 +58,17 @@ print("Your current score is " + str(score) + " out of 10\n")
 
 # question 3
 
-print("Question 3: What was the last studio album J. Cole to release?")
-print("A. Forest Hill Drive 2014")
-print("B. 4 your eyez only")
-print("C. The come up")
-print("D. Cole World: The Sideline story")
+print("Question 3: What was the last studio album Kendrick Lamar released?")
+print("A. Section 80")
+print("B. To Pimp a Butterfly")
+print("C. Untitled Unmastered")
+print("D. good kid M.A.A.D city")
 print("")
 
-Q3answer = "B" # right answer to question 3
+Q3answer = "C" # right answer to question 3
 Q3response = input("Your Answer: ")
 
-if Q3response == "B" or Q3response == "b":
+if Q3response == "C" or Q3response == "c":
     print("Well done " + Q3response + " is correct!")
     score = score +1
 
@@ -79,14 +79,14 @@ print("Your current score is " + str(score) + " out of 10\n")
 
 # question 4
 
-print("Question 4: What was the last studio album J. Cole to release?")
-print("A. Forest Hill Drive 2014")
-print("B. 4 your eyez only")
-print("C. The come up")
-print("D. Cole World: The Sideline story")
+print("Question 4: What was the last studio album Migos released?")
+print("A. Jugg season")
+print("B. Young Rich Nation")
+print("C. No label")
+print("D. 3 way")
 print("")
 
-Q4answer = "B" # right answer to question 3
+Q4answer = "B" # right answer to question 4
 Q4response = input("Your Answer: ")
 
 if Q4response == "B" or Q4response == "b":
@@ -139,27 +139,6 @@ else:
     print("Sorry, " + Q6response + " is incorrect!")
 
 print("Your current score is " + str(score) + " out of 10\n")
-# question 6
-
-print("Question 6: What was the last studio album J. Cole to release?")
-print("A. Forest Hill Drive 2014")
-print("B. 4 your eyez only")
-print("C. The come up")
-print("D. Cole World: The Sideline story")
-print("")
-
-Q6answer = "B" # right answer to question 6
-Q6response = input("Your Answer: ")
-
-if Q6response == "B" or Q6response == "b":
-    print("Well done " + Q6response + " is correct!")
-    score = score +1
-
-else:
-    print("Sorry, " + Q6response + " is incorrect!")
-
-print("Your current score is " + str(score) + " out of 10\n")
-
 # question 7
 
 print("Question 7: What was the last studio album J. Cole to release?")
@@ -169,15 +148,15 @@ print("C. The come up")
 print("D. Cole World: The Sideline story")
 print("")
 
-Q7answer = "B" # right answer to question 7
-Q7response = input("Your Answer: ")
+Q6answer = "B" # right answer to question 7
+Q6response = input("Your Answer: ")
 
 if Q7response == "B" or Q7response == "b":
     print("Well done " + Q7response + " is correct!")
     score = score +1
 
 else:
-    print("Sorry, " + Q7response + " is incorrect!")
+    print("Sorry, " + Q6response + " is incorrect!")
 
 print("Your current score is " + str(score) + " out of 10\n")
 
@@ -198,6 +177,27 @@ if Q8response == "B" or Q8response == "b":
     score = score +1
 
 else:
-    print("Sorry, " + Q8response + " is incorrect!")
+    print("Sorry, " + Q7response + " is incorrect!")
+
+print("Your current score is " + str(score) + " out of 10\n")
+
+# question 9
+
+print("Question 9: What was the last studio album J. Cole to release?")
+print("A. Forest Hill Drive 2014")
+print("B. 4 your eyez only")
+print("C. The come up")
+print("D. Cole World: The Sideline story")
+print("")
+
+Q9answer = "B" # right answer to question 9
+Q9response = input("Your Answer: ")
+
+if Q9response == "B" or Q9response == "b":
+    print("Well done " + Q9response + " is correct!")
+    score = score +1
+
+else:
+    print("Sorry, " + Q9response + " is incorrect!")
 
 print("Your current score is " + str(score) + " out of 10\n")

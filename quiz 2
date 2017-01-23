@@ -1,3 +1,7 @@
+score = 0
+score = int(score) # convert 0 into a number so we can add scores
+
+
 name = input("Enter your first name: ")
 print("Welcome", name + ", this is a quiz that'll test your math knowledge")
 print("Remember leave all answers in lower case and use ^ for exponents")
@@ -9,6 +13,12 @@ if Q1 == "11" :
 else:
     print("Sorry, that's incorrect")
 
+if Q1 == "11" :
+    print("Well done " + Q1 + " is correct!")
+    score = score +1
+
+print("Your current score is " + str(score) + " out of 10\n")
+
 print("\nQuestion 2")
 print("Leave no spaces")
 Q2 = input ("What is the the pythagorean theorem? ")
@@ -16,21 +26,36 @@ if Q2 == "a^2+b^2=c^2" :
     print("That is correct!")
 else:
     print("Sorry, that is incorrect")
+if Q2 == "a^2+b^2=c^2" :
+    print("Well done " + Q2 + " is correct!")
+    score = score +1
+
+print("Your current score is " + str(score) + " out of 10\n")
     
 print("\nQuestion 3")
 print("\nUse the pythagorean theorem")
-Q3 = input ("You are given 2 sides of the triangle, a = 3, b = 4, what is the hypotenuse, c=?")
+Q3 = input ("You are given 2 sides of the triangle, a = 3, b = 4, what is the hypotenuse, c=? ")
 if Q3 == "5" :
     print("That is correct!")
 else :
     print("Sorry, that is incorrect")
+if Q3 == "5" :
+    print("Well done " + Q3 + " is correct!")
+    score = score +1
+
+print("Your current score is " + str(score) + " out of 10\n")
 
 print("\nQuestion 4")
-Q4 = input ("What is 4^3 ")
+Q4 = input ("What is 4^3? ")
 if Q4 == "64" :
     print("That is correct!")
 else :
     print("Sorry, that is incorrect")
+if Q4 == "64" :
+    print("Well done " + Q4 + " is correct!")
+    score = score +1
+
+print("Your current score is " + str(score) + " out of 10\n")
 
 print("\nQuestion 5")
 Q5 = input ("Solve : (4*3)^2? ")
@@ -38,42 +63,70 @@ if Q5 == "144" :
     print("That is correct!")
 else :
     print("Sorry, that is incorrect")
+if Q5 == "144" :
+    print("Well done " + Q5 + " is correct!")
+    score = score +1
+
+print("Your current score is " + str(score) + " out of 10\n")
 
 print("\nQuestion 6")
-Q6 = input ("If k=3, h=5 and k<x<h, what is the value for x ")
+Q6 = input ("If k=3, h=5 and k<x<h, what is the value for x? ")
 if Q6 == "4" :
     print("That is correct!")
 else :
     print("Sorry, that is incorrect")
+if Q6 == "4" :
+    print("Well done " + Q6 + " is correct!")
+    score = score +1
+
+print("Your current score is " + str(score) + " out of 10\n")
 
 print("\nQuestion 7")
 print("\nUse the pythagorean theorem")
-Q7 = input ("If you are given a = 12, c = 24 what is b?")
+Q7 = input ("If you are given a = 12, c = 24 what is b? ")
 if Q7 == "5" :
     print("That is correct!")
 else :
     print("Sorry, that is incorrect")
+if Q7 == "5" :
+    print("Well done " + Q7 + " is correct!")
+    score = score +1
+
+print("Your current score is " + str(score) + " out of 10\n")
 
 print("\nQuestion 8")
-print("\nUse the pythagorean theorem and round to the nearest whole number")
-Q8 = input ("You are given 2 sides of the triangle, a = 3, b = 4, what is the hypotenuse, c=?")
-if Q8 == "5" :
+Q8 = input ("What is the value for x when, 9x + 11 = 902? ")
+if Q8 == "99" :
     print("That is correct!")
 else :
     print("Sorry, that is incorrect")
+if Q8 == "99" :
+    print("Well done " + Q8 + " is correct!")
+    score = score +1
+
+print("Your current score is " + str(score) + " out of 10\n")
 
 print("\nQuestion 9")
-print("\nUse the pythagorean theorem")
-Q9 = input ("You are given 2 sides of the triangle, a = 3, b = 4, what is the hypotenuse, c=?")
-if Q9 == "5" :
+Q9 = input ("If x = 102, what is the value of y in 10x + 201 = y? ")
+if Q9 == "1221" :
     print("That is correct!")
 else :
     print("Sorry, that is incorrect")
+if Q9 == "1221" :
+    print("Well done " + Q9 + " is correct!")
+    score = score +1
+
+print("Your current score is " + str(score) + " out of 10\n")
 
 print("\nQuestion 10")
 print("\nUse the pythagorean theorem")
-Q10 = input ("You are given 2 sides of the triangle, a = 3, b = 4, what is the hypotenuse, c=?")
-if Q10 == "5" :
+Q10 = input ("You are given 2 sides of the triangle, a = 8, b = 15, what is the hypotenuse, c=? ")
+if Q10 == "17" :
     print("That is correct!")
 else :
     print("Sorry, that is incorrect")
+if Q10 == "17" :
+    print("Well done " + Q10 + " is correct!")
+    score = score +1
+
+print("Final score is " + str(score) + " out of 10\n")
